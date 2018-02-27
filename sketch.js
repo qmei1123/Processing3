@@ -1,3 +1,4 @@
+var canvas;
 var widthX;
 var heightY;
 var circleX = 0;
@@ -9,7 +10,7 @@ var col = {
     a: 0
 };
 function setup() {
-    createCanvas(1000, 900);
+    createCanvas(window.innerWidth, window.innerHeight);
 }
 
 function draw() {  
